@@ -1,4 +1,4 @@
-function max(numbers)
+/*function max(numbers)
 {
     if (numbers.length === 0)
     {
@@ -45,3 +45,18 @@ function min(numbers)
 }
     
 }
+
+*/
+'use strict';
+
+
+function average(numbers) {
+    let total = 0;
+    numbers.forEach(function(elem) {
+        total += elem;
+    });
+    console.log(total);
+    return total / numbers.length;
+}
+
+console.log(average([5,5,5,5]));
