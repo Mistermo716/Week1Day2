@@ -1,4 +1,4 @@
-/*function max(numbers)
+function max(numbers)
 {
     if (numbers.length === 0)
     {
@@ -46,7 +46,7 @@ function min(numbers)
     
 }
 
-*/
+
 'use strict';
 
 
